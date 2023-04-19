@@ -1,0 +1,13 @@
+<div *ngIf="show==true">
+        <div *ngFor="let review of reviews" style="color:red">
+     <h1>id number {{review.id}}</h1>
+        <p>content of : {{review.content}}</p>
+        <p>created At : {{review.createdAt}}</p>
+        <p>rating equals to : {{review.rating}}</p>
+        <p>author id equals to : {{review.author_id}}</p>
+        <!-- <p>author id equals to : {{review.author.id}}</p> -->
+        <br><br><br>
+    </div>
+    </div>
+
+<!-- <button type="button" (click)="getReviews()">getReviews</button> -->
